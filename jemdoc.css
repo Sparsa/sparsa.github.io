@@ -128,6 +128,7 @@ strong {
 
 h1 {
     font-size: 300%;
+    font-family: 'Noto Serif JP', serif;
     color: #527;
     /*border-bottom: 1px solid #aaaaaa;*/
     	padding-bottom: 0.3em;
