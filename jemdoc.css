@@ -426,7 +426,7 @@ table.imgtable, table.imgtable td {
 }
 
 .education dt {
-    margin-left: -1.2em;
+    margin-left: -1.em;
     background-color: #eaeaea;
 }
 .internship {
