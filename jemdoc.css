@@ -434,7 +434,7 @@ table.imgtable, table.imgtable td {
     border-radius: .5em;
     padding-bottom: 1vw;
     padding-right: 5vw;
-    text-align: right;
+    text-align: left;
 }
 
 .internship h2 {
