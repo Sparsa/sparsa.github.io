@@ -459,8 +459,8 @@ table.imgtable, table.imgtable td {
 @media (min-width: 1024px) {
     .wrapper {
         display: grid;
-        grid-template-columns: .25fr .5fr .7fr .3fr;
-        grid-template-rows:1fr .5fr;
+        grid-template-columns: .25fr .5fr .6fr .4fr;
+        grid-template-rows:1fr .25fr .25fr;
         grid-row-gap: 2vw;
         grid-column-gap: 0vw 0vw 1vw;
     }
@@ -488,8 +488,8 @@ table.imgtable, table.imgtable td {
 
     .education {
         grid-column: 3;
-        grid-row: 1/3;
-        padding-right: 5vw;
+        grid-row: 1/4;
+        padding-right: 2vw;
     }
 
     .internship {
@@ -514,13 +514,13 @@ table.imgtable, table.imgtable td {
     .about{
 	margin-right:1vw;
 	grid-column:1/3;
-	grid-row:2;
+	grid-row:2/3;
     }
-    .award{
+    .awards{
 	margin-right:1vw;
 	margit-left:1vw;
-	grid-column:4;
-	grid-row:2/3;
+	grid-column:1/3;
+	grid-row:3/4;
     }
     /* .publications { */
     /*     grid-column: 2 / 6; */
@@ -537,22 +537,39 @@ table.imgtable, table.imgtable td {
         grid-row-gap: 2vw;
         grid-column-gap: 0vw 0vw 1vw;
     }
+    .image{
+	margin-right: 1vw;
+	grid-column:1;
+	grid-row:1/2;
+    }
         .contact {
 	margin-right: 1vw;
         grid-column:2;
-        grid-row: 2/3;
+        grid-row: 1/2;
     }
 
 	.about{
 	margin-right:1vw;
 	grid-column:1/3;
-	grid-row:3;
+	grid-row:2/3;
+	}
+	 .education {
+        grid-column: 1;
+        grid-row: 3/5;
+        padding-right: 2vw;
     }
-    .award{
-	margin-right:1vw;
+
+    .internship {
+        margin-left: 1vw;
+        grid-column: 2;
+        grid-row:3/4 ;
+     }
+    .awards{
+	padding-left:1.5vw;
+	margin-right:1.5vw;
 	margit-left:1vw;
-	grid-column:1/3;
-	grid-row:3;
+	grid-column:2;
+	grid-row:4;
     }
     /* .name { */
     /*     grid-column: 2 / 6; */
@@ -575,17 +592,7 @@ table.imgtable, table.imgtable td {
     /*     margin-left: 1vw; */
     /* } */
 
-    .education {
-        grid-column: 1;
-        grid-row: 1;
-        padding-right: 5vw;
-    }
-
-    .internship {
-        margin-left: 1vw;
-        grid-column: 2;
-        grid-row:1 ;
-     }
+   
 
     /* .publications { */
     /*     grid-column: 2 / 6; */
