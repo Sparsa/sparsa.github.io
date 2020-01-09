@@ -1,0 +1,102 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<title>BHIM -- Bounded Hole reachability in Multistack pushdown systems</title>
+<style type="text/css" media="all">@import "layout1.css";</style>
+</script></head><body>
+<div id="Header">
+<!--<img src="./bhim.jpg" align="left" height="90">-->
+<h1>
+<font color="#cc0000"> BHIM: </font> <font color="#cc0000">B</font>ounded <font color="#cc0000">H</font>ole reachability <font color="#cc0000">i</font>n <font color="#cc0000">M</font>ultistack pushdown systems
+<br>
+</h1>
+<p>
+</p></div>
+
+<hr>
+<br>
+<br>
+<br>
+
+<div id="Content">
+
+
+<ol>
+<li> <b>Two significant aspects of the fix-point approach in BHIM are:</b> 
+    <ul>
+        <li>We efficiently solve
+the binary reachability problem for pushdown automata. i.e., BHIM computes
+all pairs of states (s, t) such that t is reachable from s with empty stacks. This
+allows us to go beyond reachability and handle some liveness questions.</li>
+<li> We
+pre-compute the set of pairs of states that are endpoints of holes. This allows us
+to greatly limit the search for an accepting run.</li>
+</ul>
+<li> <b>Witness:</b>While the fix-point approach solves (binary) reachability efficiently, it does not
+a priori produce a witness of reachability. We remedy this situation by proposing
+a backtracking algorithm, which cleverly uses the computations done in the
+fix-point algorithm, to generate a witness efficiently.</li>
+<li><b>Parametrized Operation:</b> is parametrized w.r.t the hole bound: if non-emptiness can be checked
+or witnessed by a well-nested sequence (this is an easy witness and BHIM looks
+for easy witnesses first, then gradually increases complexity, if no easy witness is
+found), then it is sufficient to have the hole bound 0; increasing this complexity
+measure as required to certify non-emptiness gives an efficient implementation, in
+the sense that we search for harder witnesses only when no easier witnesses (w.r.t
+this complexity measure) exist. In all examples as described in the experimental
+section, a small (less than 4) bound suffices and we expect this to be the case for
+most practical examples.</li>
+<li><b>Extension to time domain:</b> Finally, extend our approach to handle timed multi-stack pushdown systems.
+This shows the versatility of our approach and also requires us to solve several
+technical challenges which are specific to the timed setting. Implementing this
+approach in BHIM makes it, to the best of our knowledge, the first tool that can
+analyze timed multi-stack pushdown automata (TMPDA) with closed guards.</li>
+
+</ol>
+
+
+
+
+<p>More details on <b>BHIM</b> can be found in this supplementary(<b>Long version with proofs</b>):<br>
+</p><dir>
+<li>
+<a href="./supp-final.pdf">
+Revisiting Underapproximate Reachability for
+Multipushdown Systems
+</a><br>
+by S. Akshay, Paul Gastin, Krishna S. and Sparsa Roychowdhury<br>
+
+</li>
+</dir>
+
+
+<h3><u>Some experimental results of BHIM</u></h3>
+<ul>
+
+
+
+<li> <b> Experiments </b> <br>
+     <a href="./supp-expts.pdf">Click here</a> for some details of experiments on the benchmarks.
+</li>
+
+<li> <b> Download </b> <br>
+Download will be available post publication.
+<!--  Click here to download  <a href="./bhim.zip">BHIM</a>.  -->
+
+</li>
+</ul>
+
+
+
+
+
+
+<br>
+
+<hr style="">
+
+
+
+<br><br>
+</body>
+</html> 
