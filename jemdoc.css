@@ -537,6 +537,12 @@ table.imgtable, table.imgtable td {
         grid-row-gap: 2vw;
         grid-column-gap: 0vw 0vw 1vw;
     }
+        .contact {
+	margin-right: 1vw;
+        grid-column:2;
+        grid-row: 1/2;
+    }
+
 
     /* .name { */
     /*     grid-column: 2 / 6; */
