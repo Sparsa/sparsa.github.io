@@ -540,10 +540,20 @@ table.imgtable, table.imgtable td {
         .contact {
 	margin-right: 1vw;
         grid-column:2;
-        grid-row: 1/2;
+        grid-row: 2/3;
     }
 
-
+	.about{
+	margin-right:1vw;
+	grid-column:1/3;
+	grid-row:3;
+    }
+    .award{
+	margin-right:1vw;
+	margit-left:1vw;
+	grid-column:1/3;
+	grid-row:3;
+    }
     /* .name { */
     /*     grid-column: 2 / 6; */
     /*     grid-row: 1; */
