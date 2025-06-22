@@ -5,13 +5,13 @@ url: "https://sparsa.github.io"
 
 author:
   name: "Sparsa"
-  email: "sparsa@email.com"
+  email: "sparsa.foss@gmail.com"
   #twitter_username: sparsa_handle   # Optional
   github_username: Sparsa
 
-# Social sharing image
-logo: /assets/images/profile.jpg
-twitter_card_type: summary_large_image
+## Social sharing image
+#logo: /assets/images/profile.jpg
+#twitter_card_type: summary_large_image
 
 # Plugins
 plugins:
