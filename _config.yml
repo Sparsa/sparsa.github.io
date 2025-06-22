@@ -1,0 +1,24 @@
+title: "Sparsa"
+description: "Personal website and blog"
+baseurl: "" # Leave empty for GitHub Pages
+url: "https://sparsa.github.io"
+
+author:
+  name: "Sparsa"
+  email: "your@email.com"
+
+theme: minima
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Build settings
+future: true
+lsi: false
