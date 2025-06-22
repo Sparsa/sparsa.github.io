@@ -76,9 +76,9 @@ Verified DJED stable coin protocol using Kind2 and Lustre modeling.
 
 ## 🎓 Education
 
-**Ph.D. in Computer Science** — *Indian Institute of Technology Bombay, India*
-**M.E. in Computer Science** — *Indian Institute of Engineering Science and Technology Shibpur, India*
-**B.Tech. in Information Technology** — *West Bengal University of Technology, India*
+* **Ph.D. in Computer Science** — *Indian Institute of Technology Bombay, India*
+* **M.E. in Computer Science** — *Indian Institute of Engineering Science and Technology Shibpur, India*
+* **B.Tech. in Information Technology** — RCC Institute of Technology, Kolkata, India*
 
 ---
 
