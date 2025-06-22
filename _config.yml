@@ -1,24 +1,42 @@
 title: "Sparsa"
 description: "Personal website and blog"
-baseurl: "" # Leave empty for GitHub Pages
+baseurl: "" # GitHub Pages uses the root
 url: "https://sparsa.github.io"
 
 author:
   name: "Sparsa"
   email: "your@email.com"
+  twitter_username: sparsa_handle   # Optional
+  github_username: sparsa
 
-theme: minima
-markdown: kramdown
+# Social sharing image
+logo: /assets/images/profile.jpg
+twitter_card_type: summary_large_image
+
+# Plugins
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-archives
 
+markdown: kramdown
+highlighter: rouge
+
+# Blog settings
+permalink: /blog/:title/
+paginate: 5
+paginate_path: "/blog/page:num"
+
+# Build settings
+theme: minima
+future: true
+lsi: false
 exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
   - vendor
 
-# Build settings
-future: true
-lsi: false
+# Google Analytics (optional)
+google_analytics: G-XXXXXXXXXX
