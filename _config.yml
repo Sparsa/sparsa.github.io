@@ -5,9 +5,9 @@ url: "https://sparsa.github.io"
 
 author:
   name: "Sparsa"
-  email: "your@email.com"
-  twitter_username: sparsa_handle   # Optional
-  github_username: sparsa
+  email: "sparsa@email.com"
+  #twitter_username: sparsa_handle   # Optional
+  github_username: Sparsa
 
 # Social sharing image
 logo: /assets/images/profile.jpg
@@ -39,4 +39,4 @@ exclude:
   - vendor
 
 # Google Analytics (optional)
-google_analytics: G-XXXXXXXXXX
+#google_analytics: G-XXXXXXXXXX
