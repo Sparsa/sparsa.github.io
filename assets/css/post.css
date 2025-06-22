@@ -1,0 +1,39 @@
+/* Blog post styling */
+.post-title {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.post-date {
+  color: #888;
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+}
+
+.post-content {
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+.post-content blockquote {
+  border-left: 4px solid #ccc;
+  padding-left: 1rem;
+  margin: 1.5rem 0;
+  color: #555;
+  font-style: italic;
+  background-color: #f7f7f7;
+}
+
+.post-content pre, .post-content code {
+  font-family: 'Courier New', monospace;
+  background-color: #eee;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+}
+
+.post-content img {
+  max-width: 100%;
+  border-radius: 6px;
+  margin: 1.5rem 0;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} | Sparsa</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/post.css"> <!-- optional for extra post styling -->
+</head>
+<body>
+  {% include nav.html %}
+
+  <main class="post-content">
+    <article>
+      <h1 class="post-title">{{ page.title }}</h1>
+      <p class="post-date">{{ page.date | date: "%B %d, %Y" }}</p>
+
+      {{ content }}
+    </article>
+  </main>
+
+  {% include footer.html %}
+</body>
+</html>
