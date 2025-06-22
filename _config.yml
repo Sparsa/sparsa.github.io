@@ -19,6 +19,8 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-archives
+gems:
+  - jemoji
 
 markdown: kramdown
 highlighter: rouge
