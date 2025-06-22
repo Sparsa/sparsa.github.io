@@ -63,7 +63,7 @@ Verified DJED stable coin protocol using Kind2 and Lustre modeling.
 
 1. “Pioneering Software Formal Verification Methodology for Firmware” – DVCon India 2024
 2. “Revisiting Underapproximate Reachability for Multipushdown Systems” – TACAS 2020
-3. “12-Player Stochastic StopWatch Games” – TIME 2021
+3. “1/2-Player Stochastic StopWatch Games” – TIME 2021
 4. “Resilience of Timed Systems” – FSTTCS 2021
 
 ---
