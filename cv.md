@@ -19,25 +19,13 @@ Experienced in formal methods and distributed systems. Proven track record of de
 
 ## 💼 Experience
 
-**Formal Verification Engineer** — *LUBIS-EDA, Germany*
+ #### Formal Verification Engineer* — LUBIS-EDA, Germany
+ **Postdoctoral Research Assistant** — *TU Clausthal, Germany*
+ **Formal Verification Engineer** — *Intel, India*
 
-*Present*
 
-**Postdoctoral Research Assistant** — *TU Clausthal, Germany*
-*8 months*
-Institute for Software and Systems Engineering
-Research on formal hardware generation using reactive synthesis. Focus on FPGA-targeted systems for energy-efficient, correct-by-design architectures.
 
-**Formal Verification Engineer** — *Intel, Bengaluru, India*
-*2 years 3 months*
-Formal verification of firmware and execution units using RTL2RTL/C2RTL equivalence. Collaborated with global design teams and EDA vendors. Verified IP blocks including GCM-AES and PCIe Gen5.
 
-**Consultant (Self-employed)**
-*2 months*
-Verified DJED stable coin protocol using Kind2 and Lustre modeling.
-
-**Intern, MathWorks – Control Design Automation Group** — *Bengaluru, India*
-*3 months*
 
 ---
 
