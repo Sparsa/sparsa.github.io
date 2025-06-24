@@ -19,9 +19,9 @@ Experienced in formal methods and distributed systems. Proven track record of de
 
 ## 💼 Experience
 
- #### Formal Verification Engineer* — LUBIS-EDA, Germany
- **Postdoctoral Research Assistant** — *TU Clausthal, Germany*
- **Formal Verification Engineer** — *Intel, India*
+ #### Formal Verification Engineer* — *LUBIS-EDA, Germany*
+ #### Postdoctoral Research Assistant — *TU Clausthal, Germany*
+ #### Formal Verification Engineer — *Intel, India*
 
 
 
