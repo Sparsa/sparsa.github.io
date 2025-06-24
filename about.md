@@ -8,4 +8,4 @@ I'm Sparsa — passionate about research, code, and building thoughtful systems.
 
 You’ll find my projects, blog posts, and experiments here.
 
-💼 [LinkedIn](https://www.linkedin.com/in/sparsa-roychowdhury-phd-6336b831/ "Dr. Sparsa Roychowdhur") :octocat:[ Github](https://github.com/Sparsa "Sparsa")
+💼 [LinkedIn](https://www.linkedin.com/in/sparsa-roychowdhury-phd-6336b831/ "Dr. Sparsa Roychowdhur") :octocat: [Github](https://github.com/Sparsa "Sparsa")

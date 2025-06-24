@@ -13,7 +13,7 @@ Experienced in formal methods and distributed systems. Proven track record of de
 ## 🛠 Key Projects
 
 - **Firmware and Execution Unit Verification (Intel):** Formally verified firmware and RTL designs including GCM-AES encryption and PCIe Gen5. Used C2RTL/RTL2RTL equivalence for robust software-hardware integration.
-- **Correct-by-Construction FPGA Hardware (TU Clausthal):** Designed formally verified FPGA modules using reactive synthesis and formal specifications, targeting reliability and autonomy in hardware systems.
+- **Correct-by-Construction FPGA Hardware (TU Clausthal):** Worked on correct by construction FPGA modules using reactive synthesis and formal specifications, targeting reliability and autonomy in hardware systems.
 
 ---
 
