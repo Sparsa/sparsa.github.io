@@ -119,6 +119,8 @@ What are your thoughts on the potential timeline for CNT-based GPU adoption? Sha
 
 ## References
 
+[^slide]: https://www.slideshare.net/slideshow/cnt-c/28341441
+
 [^1]: Zhang, J., et al. (2024). "High-Performance Carbon Nanotube Transistors and Circuits for Next-Generation Computing." Nature Electronics, 7(3), 245-258.
 
 
@@ -144,4 +146,3 @@ What are your thoughts on the potential timeline for CNT-based GPU adoption? Sha
 
 [^9]: Quantum Computing Weekly. (2024). "C12 Quantum Electronics Advances Carbon Nanotube Quantum Computing Platform." Quantum Technology Review, 15(7), 23-28.
 
-[^slide]: https://www.slideshare.net/slideshow/cnt-c/28341441
