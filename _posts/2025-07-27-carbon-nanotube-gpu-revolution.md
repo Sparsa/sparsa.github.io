@@ -13,20 +13,20 @@ The foundational work in carbon nanotube computing began with simple proof-of-co
 
 #### Recent Breakthroughs
 
-The landscape has transformed dramatically in recent years. Researchers have made significant advancements in high-performance carbon nanotube transistors (CNTs) and circuits [1]. These CNT devices promise low-power, high-performance computation, by enhancing silicon chips. Key developments include stacked computing systems and improved doping methods, marking significant progress toward commercial viability [2].
-Research indicates CNFETs have properties that promise around 10 times the energy efficiency and far greater speeds compared to silicon [3], representing a quantum leap in computational efficiency that could reshape the entire semiconductor industry.
+The landscape has transformed dramatically in recent years. Researchers have made significant advancements in high-performance carbon nanotube transistors (CNTs) and circuits [^1]. These CNT devices promise low-power, high-performance computation, by enhancing silicon chips. Key developments include stacked computing systems and improved doping methods, marking significant progress toward commercial viability [^2].
+Research indicates CNFETs have properties that promise around 10 times the energy efficiency and far greater speeds compared to silicon [^3], representing a quantum leap in computational efficiency that could reshape the entire semiconductor industry.
 
 #### Manufacturing Breakthroughs
 
-One of the most significant developments has been in manufacturing precision. Researchers have struggled to find techniques to precisely deposit the tubes, but engineers at the University of Wisconsin-Madison have discovered a new method of aligning the nanotubes by turning them into 2D liquid crystals [4]. This breakthrough addresses one of the fundamental challenges that has hindered mass production of CNT-based processors.
+One of the most significant developments has been in manufacturing precision. Researchers have struggled to find techniques to precisely deposit the tubes, but engineers at the University of Wisconsin-Madison have discovered a new method of aligning the nanotubes by turning them into 2D liquid crystals [^4]. This breakthrough addresses one of the fundamental challenges that has hindered mass production of CNT-based processors.
 
 ## The AI Computing Revolution
 
 #### First CNT Tensor Processing Units
 
-The most exciting recent development for the GPU industry comes from the creation of specialized AI processors. Scientists in China have developed a tensor processing unit (TPU) that uses carbon-based transistors instead of silicon and they say it's extremely energy efficient [5]. This represents the first practical application of CNT technology in AI acceleration, directly challenging traditional GPU architectures.
+The most exciting recent development for the GPU industry comes from the creation of specialized AI processors. Scientists in China have developed a tensor processing unit (TPU) that uses carbon-based transistors instead of silicon and they say it's extremely energy efficient [^5]. This represents the first practical application of CNT technology in AI acceleration, directly challenging traditional GPU architectures.
 
-The first tensor processor chip based on carbon nanotubes could lead to energy-efficient AI processing [6], offering a glimpse into how CNT technology might revolutionize machine learning and artificial intelligence workloads.
+The first tensor processor chip based on carbon nanotubes could lead to energy-efficient AI processing [^6], offering a glimpse into how CNT technology might revolutionize machine learning and artificial intelligence workloads.
 
 #### Energy Efficiency: The Game Changer
 
@@ -34,7 +34,7 @@ The implications for data centers and AI infrastructure are staggering. While tr
 
 #### Market Momentum and Investment
 
-The commercial potential hasn't gone unnoticed. The global single-wall carbon nanotube (SWCNT) market is poised for significant growth, valued at approximately $1.2 billion in 2024. Projections indicate a robust expansion, with the market expected to reach around $3 billion by 2034 [7], driven by increasing demand in sectors such as electronics.
+The commercial potential hasn't gone unnoticed. The global single-wall carbon nanotube (SWCNT) market is poised for significant growth, valued at approximately $1.2 billion in 2024. Projections indicate a robust expansion, with the market expected to reach around $3 billion by 2034 [^7], driven by increasing demand in sectors such as electronics.
 This market growth reflects increasing confidence in CNT technology's commercial viability and suggests that major semiconductor companies are preparing for the transition.
 
 ## Technical Advantages Over Silicon GPUs
@@ -49,7 +49,7 @@ Carbon nanotubes offer several fundamental advantages over silicon:
 
 #### Performance Characteristics
 
-The energy-delay product of CNTFETs is approximately an order of magnitude better than silicon FETs [8], meaning they can perform the same computations faster while using less energy. For GPU applications involving parallel processing of massive datasets, this translates to:
+The energy-delay product of CNTFETs is approximately an order of magnitude better than silicon FETs [^8], meaning they can perform the same computations faster while using less energy. For GPU applications involving parallel processing of massive datasets, this translates to:
 
 * Higher computational throughput
 * Reduced power infrastructure requirements
@@ -119,29 +119,29 @@ What are your thoughts on the potential timeline for CNT-based GPU adoption? Sha
 
 ## References
 
-[1] Zhang, J., et al. (2024). "High-Performance Carbon Nanotube Transistors and Circuits for Next-Generation Computing." Nature Electronics, 7(3), 245-258.
+[^1]: Zhang, J., et al. (2024). "High-Performance Carbon Nanotube Transistors and Circuits for Next-Generation Computing." Nature Electronics, 7(3), 245-258.
 
 
-[2] Chen, L., Wang, M., & Liu, K. (2024). "Advances in Carbon Nanotube Field-Effect Transistor Design and Manufacturing." IEEE Transactions on Electron Devices, 71(8), 4512-4520.
+[^2]: Chen, L., Wang, M., & Liu, K. (2024). "Advances in Carbon Nanotube Field-Effect Transistor Design and Manufacturing." IEEE Transactions on Electron Devices, 71(8), 4512-4520.
 
 
-[3] Kumar, A., Smith, R., & Johnson, P. (2024). "Energy Efficiency Analysis of Carbon Nanotube vs Silicon-Based Computing Systems." Science Advances, 10(15), eabk2847.
+[^3]: Kumar, A., Smith, R., & Johnson, P. (2024). "Energy Efficiency Analysis of Carbon Nanotube vs Silicon-Based Computing Systems." Science Advances, 10(15), eabk2847.
 
 
-[4] Thompson, D., et al. (2024). "Liquid Crystal Alignment Techniques for Large-Scale Carbon Nanotube Processor Manufacturing." Advanced Materials, 36(12), 2301245.
+[^4]: Thompson, D., et al. (2024). "Liquid Crystal Alignment Techniques for Large-Scale Carbon Nanotube Processor Manufacturing." Advanced Materials, 36(12), 2301245.
 
 
-[5] Li, W., Zhang, Y., & Chen, H. (2024). "Carbon Nanotube-Based Tensor Processing Unit for Energy-Efficient AI Computing." Nature Communications, 15, 1847.
+[^5]: Li, W., Zhang, Y., & Chen, H. (2024). "Carbon Nanotube-Based Tensor Processing Unit for Energy-Efficient AI Computing." Nature Communications, 15, 1847.
 
 
-[6] Rodriguez, M., et al. (2024). "First Demonstration of Carbon Nanotube Tensor Processors for Machine Learning Applications." Proceedings of the IEEE, 112(4), 567-582.
+[^6]: Rodriguez, M., et al. (2024). "First Demonstration of Carbon Nanotube Tensor Processors for Machine Learning Applications." Proceedings of the IEEE, 112(4), 567-582.
 
 
-[7] Global Market Research. (2024). "Single-Wall Carbon Nanotube Market Analysis and Forecast 2024-2034." Advanced Materials Market Reports, Vol. 47.
+[^7]: Global Market Research. (2024). "Single-Wall Carbon Nanotube Market Analysis and Forecast 2024-2034." Advanced Materials Market Reports, Vol. 47.
 
-[8] Park, S., et al. (2024). "Comparative Analysis of Energy-Delay Products in Carbon Nanotube and Silicon Field-Effect Transistors." Applied Physics Letters, 124(8), 083501.
+[^8]: Park, S., et al. (2024). "Comparative Analysis of Energy-Delay Products in Carbon Nanotube and Silicon Field-Effect Transistors." Applied Physics Letters, 124(8), 083501.
 
 
-[9] Quantum Computing Weekly. (2024). "C12 Quantum Electronics Advances Carbon Nanotube Quantum Computing Platform." Quantum Technology Review, 15(7), 23-28.
+[^9]: Quantum Computing Weekly. (2024). "C12 Quantum Electronics Advances Carbon Nanotube Quantum Computing Platform." Quantum Technology Review, 15(7), 23-28.
 
 [^slide]: https://www.slideshare.net/slideshow/cnt-c/28341441
