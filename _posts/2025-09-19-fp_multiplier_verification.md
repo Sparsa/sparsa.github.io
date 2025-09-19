@@ -1,9 +1,9 @@
+---
 title: "Datapath Verification of Floating-Point Multipliers with Case Splitting"
 date: 2025-09-19
 categories: [hardware-verification, floating-point, formal-methods]
 tags: [dpv, synopsys, ieee754, datapath, softfloat, case-splitting]
--------------------------------------------------------------------
-
+---
 Floating-point multiplication is a core operation in many designs, but verifying it can be quite complex. This post discusses how we used **Synopsys DPV (Hector)** for datapath verification of a floating-point multiplier, leveraging **SoftFloat** as a reference, and applying **case splitting techniques** to achieve convergence.
 
 ---
