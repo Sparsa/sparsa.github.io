@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Formal Golden Models for RTL Verification with Lean4"
-date: 2025-10-15
+date: 2026-4-15
 ---
 
 There is a gap at the heart of hardware verification that we rarely talk about directly.
