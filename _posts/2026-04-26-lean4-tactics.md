@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: "Lean4 Tactics I Keep Coming Back To"
