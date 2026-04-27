@@ -8,7 +8,7 @@ permalink:
 
 ## 👤 Summary
 
-Formal methods researcher and hardware verification engineer with a Ph.D. in Computer Science (IIT Bombay) and 3+ years of industrial formal verification experience. Deep expertise spanning model checking theory, theorem proving, and assertion-based RTL verification — including C++ implementation of reachability solvers for multi-pushdown systems and industrial sign-off experience on RISC-V and PCIe Gen5 designs using JasperGold and VC Formal. Recognized with a Best Paper award (Jasper User Group India 2024), a patent filing in formal model extraction, and peer-reviewed publications at TACAS and FSTTCS. Experienced in bridging the gap between formal proof and simulation through hybrid verification frameworks integrating Lean4 theorem proving with dynamic testbenches.
+Formal methods researcher and hardware verification engineer with a Ph.D. in Computer Science and 3+ years of industrial formal verification experience. Deep expertise spanning model checking theory, theorem proving, and assertion-based RTL verification — including C++ implementation of reachability solvers for multi-pushdown systems and industrial sign-off experience on RISC-V and PCIe Gen5 designs using JasperGold and VC Formal. Recognized with a Best Paper award (Jasper User Group India 2024), a patent filing in formal model extraction, and peer-reviewed publications at TACAS and FSTTCS. Experienced in bridging the gap between formal proof and simulation through hybrid verification frameworks integrating Lean4 theorem proving with dynamic testbenches.
 
 ---
 
@@ -44,7 +44,7 @@ Formal methods researcher and hardware verification engineer with a Ph.D. in Com
 
 ## 🛠 Key Projects
 
-- ** Universal Processor verification (Ubitium):** A hybrid hardware verification framework integrating Lean4 formally verified golden models with cocotb/Hypothesis simulation testbenches. Proof and simulation share the same model via FFI — when the testbench finds a mismatch, the RTL is wrong, not the reference.
+- **Universal Processor verification (Ubitium):** A hybrid hardware verification framework integrating Lean4 formally verified golden models with cocotb/Hypothesis simulation testbenches. Proof and simulation share the same model via FFI — when the testbench finds a mismatch, the RTL is wrong, not the reference.
 - **Emptiness Checker for Multi-Pushdown Systems (IIT Bombay PhD):** C++ implementation of underapproximate reachability algorithms for multi-pushdown systems. Work published at TACAS 2020.
 - **Firmware and Execution Unit Verification (Intel):** Formally verified firmware and RTL designs including GCM-AES encryption and PCIe Gen5 using C2RTL/RTL2RTL equivalence flows.
 - **Correct-by-Construction FPGA Hardware (TU Clausthal):** Correct-by-construction FPGA modules using reactive synthesis and formal specifications targeting reliability in hardware systems.
