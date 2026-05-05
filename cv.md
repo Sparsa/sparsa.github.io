@@ -77,6 +77,7 @@ Formal methods researcher and hardware verification engineer with a Ph.D. in Com
 2. ["Revisiting Underapproximate Reachability for Multipushdown Systems"](https://link.springer.com/chapter/10.1007/978-3-030-45190-5_21) — TACAS 2020
 3. ["1½-Player Stochastic StopWatch Games"](https://drops.dagstuhl.de/opus/volltexte/2021/14793/) — TIME 2021
 4. ["Resilience of Timed Systems"](https://drops.dagstuhl.de/opus/volltexte/2021/15544/) — FSTTCS 2021
+--- 
 ## Patents
 
 1. ["Semi-automatic tool to create formal verification models"](https://patents.google.com/patent/US20240126967A1)
