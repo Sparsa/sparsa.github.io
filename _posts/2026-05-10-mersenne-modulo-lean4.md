@@ -1,10 +1,9 @@
 ---
 layout: post
 title: "Proving Fast Mersenne Modulo Correct in Lean 4"
-date: 2025-10-15
+date: 2025-05-10
 ---
-
-Hardware datapaths often need to compute `a mod (2^n − 1)` — a so-called **Mersenne modulo** — efficiently. This shows up in hashing, CRC circuits, residue number systems, and checksum logic. The naïve approach uses a hardware divider, which is expensive. The fast approach uses only a shift and an add. In this post, I'll walk through the trick, prove it correct in **Lean 4**, and connect it to formal hardware verification.
+Hardware datapaths often need to compute `a mod (2^n − 1)`, a so-called **Mersenne modulo** efficiently. This shows up in hashing, CRC circuits, residue number systems, and checksum logic. The naïve approach uses a hardware divider, which is expensive. The fast approach uses only a shift and an add. In this post, I'll walk through the trick, prove it correct in **Lean 4**, and connect it to formal hardware verification.
 
 ---
 
@@ -48,7 +47,7 @@ The proof proceeds by showing that `a` can be rewritten as:
 a = (a / b) * (b − 1) + (a / b + a % b)
 ```
 
-which follows from the standard division identity `a = (a / b) * b + a % b` combined with `(a / b) * (b − 1) = (a / b) * b − (a / b)`. Once we have this decomposition, Mathlib's `Nat.mul_add_mod_self_right` immediately gives us the result, since `(a/b) * (b−1)` is an exact multiple of `(b−1)`.
+which follows from the standard division identity `a = (a / b) * b + a % b` combined with `(a / b) * (b − 1) = (a / b) * b − (a / b)`. Once we have this decomposition, Lean's `Nat.mul_add_mod_self_right` immediately gives us the result, since `(a/b) * (b−1)` is an exact multiple of `(b−1)`.
 
 The full proof in Lean 4:
 
@@ -81,7 +80,8 @@ a >>> 32 = a / 2^32
 a &&& 4294967295 = a % 4294967296
 ```
 
-Both of these are available in Mathlib:
+Both of these are available as tactics in Lean:
+
 - `Nat.shiftRight_eq_div_pow`
 - `Nat.and_two_pow_sub_one_eq_mod`
 
@@ -124,7 +124,7 @@ Steps 4 and 5 are the key: once we know the sum is less than `2 * 4294967295`, t
 
 ## Hardware Relevance
 
-This pattern — fast modulo via shift-and-add — appears directly in RTL. A synthesised implementation might look like:
+This pattern, fast modulo via shift-and-add, appears directly in RTL. A synthesised implementation might look like:
 
 ```systemverilog
 logic [32:0] sum;
@@ -150,7 +150,6 @@ Formal verification of such a block typically uses an SVA property asserting equ
 - [Lean 4](https://lean-lang.org/)
 - [Mathlib4](https://leanprover-community.github.io/mathlib4_docs/)
 - [Mersenne Numbers and Residue Arithmetic](https://en.wikipedia.org/wiki/Mersenne_prime)
-- [IEEE 754 Standard for Floating-Point Arithmetic](https://ieeexplore.ieee.org/document/4610935)
 
 ---
 
