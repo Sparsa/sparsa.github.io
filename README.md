@@ -8,6 +8,7 @@ Personal website and blog built with [Jekyll](https://jekyllrb.com/) using the [
 .
 ├── _config.yml            # Site configuration (Chirpy options, defaults, plugins)
 ├── _data/                 # Contact, share, and localization data
+├── _plugins/              # Custom Jekyll plugins (e.g. Lean syntax highlighting)
 ├── _tabs/                 # Top-level nav pages (about, cv, archives, categories, tags)
 ├── _posts/                # Blog posts (markdown)
 ├── _bibliography/         # BibTeX sources for jekyll-scholar
@@ -57,9 +58,21 @@ Personal website and blog built with [Jekyll](https://jekyllrb.com/) using the [
   ```
   ````
 
+- **Lean syntax highlighting** — a custom Rouge lexer (`_plugins/lean.rb`) handles Lean 4's Unicode vocabulary (`∀`, `∘`, Greek letters, subscripts) without rendering error tokens.
 - **Figures** — `{% figure caption:"..." %}...{% endfigure %}` for captioned figures (via jekyll-figure).
 - **Citations** — use `{% cite key %}` and `{% bibliography --cited %}` with entries in `_bibliography/references.bib` (via jekyll-scholar).
 - **Dark mode**, PWA support, and SEO/sitemap/feed are built in.
+
+## Avatar and favicon
+
+- The sidebar avatar is `images/me.jpg` (set via `avatar:` in `_config.yml`).
+- Favicons live in `assets/img/favicons/` and at the repo root (`favicon.ico`, `apple-touch-icon.png`). Regenerate them from the avatar with ImageMagick:
+
+  ```bash
+  convert images/me.jpg -resize 256x256 -background white -alpha remove -alpha off /tmp/me.png
+  convert /tmp/me.png -define icon:auto-resize=16,32,48,64 favicon.ico
+  convert /tmp/me.png -resize 180x180 apple-touch-icon.png
+  ```
 
 ## Local development
 
