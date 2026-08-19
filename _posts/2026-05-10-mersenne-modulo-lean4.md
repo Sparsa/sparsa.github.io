@@ -2,6 +2,7 @@
 layout: post
 title: "Proving Fast Mersenne Modulo Correct in Lean 4"
 date: 2026-05-10
+description: "Proving the shift-and-add Mersenne modulo trick correct in Lean 4."
 ---
 Hardware datapaths often need to compute `a mod (2^n − 1)`, a so-called **Mersenne modulo** efficiently. This shows up in hashing, CRC circuits, residue number systems, and checksum logic. The naïve approach uses a hardware divider, which is expensive. The fast approach uses only a shift and an add. In this post, I'll walk through the trick, prove it correct in **Lean 4**, and connect it to formal hardware verification.
 

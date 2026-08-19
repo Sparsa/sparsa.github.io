@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Formal Golden Models for RTL Verification with Lean4"
-date: 2026-4-15
+date: 2026-04-07
+description: "Using Lean4 to build formal golden models for RTL verification."
 ---
 
 There is a gap at the heart of hardware verification that we rarely talk about directly.

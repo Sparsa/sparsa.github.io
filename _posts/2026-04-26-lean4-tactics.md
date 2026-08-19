@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Lean4 Tactics I Keep Coming Back To"
-date: 2025-10-22
+date: 2026-04-26
+description: "A record of the Lean4 tactics I reach for most often, from simp to omega."
 ---
 
 Learning Lean4 has a particular shape to it. The type theory is deep, the dependent types take time to internalize, and the error messages are occasionally cryptic. But the tactic language — the part you use when actually proving things interactively — is surprizingly learnable. You accumulate a small vocabulary of tactics, and most proofs are written with maybe eight or ten of them.

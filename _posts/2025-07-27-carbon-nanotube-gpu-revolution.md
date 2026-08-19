@@ -1,6 +1,7 @@
 ---
 title: "The Carbon Nanotube Revolution: How Next-Generation Computing Could Transform the GPU Industry"
 date: 2025-07-27
+description: "Exploring carbon nanotube computing and its potential impact on GPUs and high-performance computing."
 ---
 Years ago, as a master's student, I explored the theoretical promise of carbon nanotube (CNT) computing[^slide] in what seemed like a distant technological future. The concept was compelling: replace silicon with carbon nanotubes to create processors that could operate at higher frequencies with dramatically lower power consumption. Today, that future is rapidly becoming reality, with profound implications for the GPU industry and high-performance computing.
 Carbon nanotubes, those remarkable single-atom-thick sheets of carbon rolled into cylindrical structures, possess extraordinary electrical and thermal properties that make them ideal candidates for next-generation computing. Unlike silicon transistors that suffer from increasing leakage currents as they shrink, CNT-based field-effect transistors (CNTFETs) maintain their efficiency even at nanoscale dimensions.

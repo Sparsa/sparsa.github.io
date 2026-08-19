@@ -1,6 +1,7 @@
 ---
 title: "Understanding Memory Coherency and Cache Coherence Protocols"
 date: 2025-07-14
+description: "An overview of cache coherency challenges and coherence protocols in multicore systems."
 ---
 
 
